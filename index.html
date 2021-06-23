@@ -1,119 +1,201 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<title>Hi!</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-		<base target="_blank">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<head>
 
-		<!-- <script>
-			document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';
-		</script> --><!-- Responsive images -->
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-			<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-		<![endif]-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- <nav>
-			<div class="top-ribbon"></div>
-			<ul class="nav-font clearfix">
-				<li>[item 1]</li>
-				<li>[item 2]</li>
-				<li>[item 3]</li>
-			</ul>
-		</nav> -->
-		<div class="separator"></div>
+	<meta name="description" content="I am a front-end web developer focusing on Vue JS. I like simple UIs, fast websites, and good performance.">
 
-		<header class="site-header">
-			<h1 class="title title-font">Nafiur Rahman</h1>
-			<p class="tagline tagline-font">Web developer. Language lover.</p>
-			<div class="contact">
-				<a class="contact-item" href="mailto:nr072.m@gmail.com"><i class="fa fa-envelope"></i></a>
-				<a class="contact-item" href="https://github.com/nr072"><i class="fa fa-github"></i></a>
+	<title>Nafiur Rahman</title>
+
+	<link rel="stylesheet" href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="css/skeleton.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;500&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+<body>
+
+	<section class="container-fluid landing-section">
+		<div class="row">
+			<div class="seven columns offset-by-four">
+				<h1>Nafiur Rahman</h1>
+				<picture class="bottom-line">
+					<source srcset="img/line.png" media="(max-width: 719px)" width="200px">
+					<img src="img/line-2.png" alt="Decorative line" width="300">
+				</picture>
+				<p class="site-subtitle">Web developer</p>
 			</div>
-		</header>
+		</div>
+	</section>
 
-		<div class="separator"></div>
+	<section class="container-fluid about-section">
+		<p>I started my journey with <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://d3js.org/">D3</a>, before even learning many simple JavaScript concepts. Naturally, I was mesmerized by the visual aspects of webpages. It took a while to start learning to build from scratch. But when it did, I discovered that I liked making things that were simple, useful, yet elegant.</p>
+		<p>Currently I am working on a personal project&mdash;a <a href="https://github.com/nr072/mantle/">to-do app</a>&mdash;to learn <a href="https://vuejs.org/">Vue</a> and <a href="https://laravel.com/">Laravel</a> better.</p>
+	</section>
 
-		<p class="gallery-section-title">Here are some of my works</p>
+	<section class="container-fluid skill-section">
+		<h2 class="section-title"><span>Skills and interests</span></h2>
+		<img src="img/logos.png" alt="Several logos">
+	</section>
 
-		<section class="gallery-hex">
+	<section class="container-fluid site-section">
+		<h2 class="section-title"><span>Sites worked on</span></h2>
+		<div class="grid container">
+			<div class="grid-item gi-1">
+				<a href="https://norahomedecor.com/">
+					<img class="grid-image" src="img/site-nora.jpg" alt="Website screenshot">
+				</a>
+			</div>
+			<div class="grid-item gi-2">
+				<a href="https://mrczstore.com/">
+					<img class="grid-image" src="img/site-mrcz.jpg" alt="Website screenshot">
+				</a>
+			</div>
+			<div class="grid-item gi-3">
+				<a href="https://sharifitsolution.com.au/">
+					<picture>
+						<source srcset="img/site-it-1280x720.jpg" media="(max-width: 719px)">
+						<source srcset="img/site-it.jpg" media="(min-width: 720px)">
+						<img class="grid-image" src="img/site-it.jpg" alt="Website screenshot">
+					</picture>
+				</a>
+			</div>
+			<div class="grid-item gi-4">
+				<a href="https://covid19.boiledbhoot.com/">
+					<img class="grid-image" src="img/site-covid.jpg" alt="Website screenshot">
+				</a>
+			</div>
+			<div class="grid-item gi-5">
+				<a href="https://boiledbhoot.com/">
+					<picture>
+						<source srcset="img/site-boil-1280x720.jpg" media="(max-width: 719px)">
+						<source srcset="img/site-boil.jpg" media="(min-width: 720px)">
+						<img class="grid-image" src="img/site-boil.jpg" alt="Website screenshot">
+					</picture>
+				</a>
+			</div>
+			<div class="grid-item gi-6">
+				<a href="https://osmbdf.org/">
+					<picture>
+						<source srcset="img/site-osmbdf-1280x720.jpg" media="(max-width: 719px)">
+						<source srcset="img/site-osmbdf.jpg" media="(min-width: 720px)">
+						<img class="grid-image" src="img/site-osmbdf.jpg" alt="Website screenshot">
+					</picture>
+				</a>
+			</div>
+			<div class="grid-item gi-7">
+				<a href="https://avayaa.org/">
+					<picture>
+						<source srcset="img/site-avayaa-1280x720.jpg" media="(max-width: 719px)">
+						<source srcset="img/site-avayaa.jpg" media="(min-width: 720px)">
+						<img class="grid-image" src="img/site-avayaa.jpg" alt="Website screenshot">
+					</picture>
+				</a>
+			</div>
+			<div class="grid-item gi-8">
+				<a>
+					<img class="grid-image" src="img/site-sport.jpg" alt="Website screenshot">
+				</a>
+			</div>
+		</div>
+	</section>
 
-				<div class="wrapper">
-					<div class="hexagon">
-						<div class="hexagon-in1">
-							<div class="hexagon-in2">
-								<a href="https://boiledbhoot.org/" title="Bangladesh Open Innovation Lab (BOIL)">
-									<img class="thumbnail" src="img/hex-item-1.png" alt="Screenshot of website">
-								</a>
-							</div>
-						</div>
-					</div><!--hexagon-->
-				</div><!--wrapper-->
+	<section class="container-fluid tool-section">
+		<div class="container">
+			<h2 class="section-title"><span>Simple tools made</span></h2>
+			<p class="section-subtitle">These are laughably simple tools, mostly created on whim. Every one of them is built with vanilla JavaScript, and some part of each is either incomplete or outdated.</p>
+			<div class="row">
+				<div class="md-four columns md-offset-by-one">
+					<div class="tool-title-wrap">
+						<h3 class="tool-title">Quip</h3>
+						<a href="https://github.com/nr072/quip/">
+							<i class="fa fa-github" title="Go to GitHub repository" aria-label="Go to GitHub repository"></i>
+						</a>
+					</div>
+					<p>A webpage with a calendar on it for doing some quick event planning. Short events can be added for the current month and seen in a sorted manner. Since all data is stored using JavaScript's "sessionStorage", everything is temporary and is lost on tab reload.</p>
+				</div>
+				<div class="md-four columns md-offset-by-two">
+					<div class="tool-title-wrap">
+						<h3 class="tool-title">Qlick</h3>
+						<a href="https://github.com/nr072/qlick/">
+							<i class="fa fa-github" title="Go to GitHub repository" aria-label="Go to GitHub repository"></i>
+						</a>
+					</div>
+					<p>A browser bookmarklet (webpage provided as well) to remove tracking queries from URLs. This was originally developed to prune URLs on Facebook. Later some support for Gmail and YouTube links were also added.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="md-four columns md-offset-by-one">
+					<div class="tool-title-wrap">
+						<h3 class="tool-title">Disfigure</h3>
+						<a href="https://github.com/nr072/disfigure/">
+							<i class="fa fa-github" title="Go to GitHub repository" aria-label="Go to GitHub repository"></i>
+						</a>
+					</div>
+					<p>A browser bookmarklet to remove specific parts of a webpage to mimic a somewhat distraction-free interface. Only Facebook and YouTube on desktop browsers are supported.</p>
+					<p>Currently broken on Facebook due to their last UI change.</p>
+				</div>
+				<div class="md-four columns md-offset-by-two">
+					<div class="tool-title-wrap">
+						<h3 class="tool-title">CS3</h3>
+						<a href="https://github.com/nr072/cs3/">
+							<i class="fa fa-github" title="Go to GitHub repository" aria-label="Go to GitHub repository"></i>
+						</a>
+					</div>
+					<p>A webpage that sorts CSS declarations alphabetically. Both "pretty" and minified CSS are supported, though with limited functionalities.</p>
+					<p>Not out of development phase yet.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="md-four columns md-offset-by-one">
+					<div class="tool-title-wrap">
+						<h3 class="tool-title">Rasputin</h3>
+						<a href="https://github.com/nr072/rasputin/">
+							<i class="fa fa-github" title="Go to GitHub repository" aria-label="Go to GitHub repository"></i>
+						</a>
+					</div>
+					<p>A webpage to generate random sequences of characters. Originally created for generating temporary online meeting links and passwords.</p>
+					<p>Not out of development phase yet.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-				<div class="wrapper">
-					<div class="hexagon">
-						<div class="hexagon-in1">
-							<div class="hexagon-in2">
-								<a href="https://osmbdf.org/" title="OpenStreetMap Bangladesh Foundation (OSMBDF)">
-									<img class="thumbnail" src="img/hex-item-2.png" alt="Screenshot of website">
-								</a>
-							</div>
-						</div>
-					</div><!--hexagon-->
-				</div><!--wrapper-->
+	<section class="container-fluid contact-section">
+		<a href="https://github.com/nr072/" class="button">
+			<i class="fa fa-github" aria-hidden="true"></i>
+			<span>GitHub</span>
+		</a>
+		<a href="https://github.com/nr072/blog/" class="button">
+			<i class="fa fa-edit" aria-hidden="true"></i>
+			<span>Blog</span>
+		</a>
+		<a href="mailto:nr072.m@gmail.com" class="button">
+			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			<span>Email</span>
+		</a>
+	</section>
 
-				<div class="wrapper">
-					<div class="hexagon">
-						<div class="hexagon-in1">
-							<div class="hexagon-in2">
-								<a href="https://covid19.boiledbhoot.com/" title="Bangladesh COVID-19 Map">
-									<img class="thumbnail" src="img/hex-item-3.png" alt="Screenshot of website">
-								</a>
-							</div>
-						</div>
-					</div><!--hexagon-->
-				</div><!--wrapper-->
+	<footer>
+		<p><small>Copyright &copy; 2021 Nafiur Rahman</small></p>
+		<p>
+			<small>Site built with <a href="https://skeleton-framework.github.io/">Skeleton</a></small>
+			<small>Background image created with <a href="https://github.com/ondras/primitive.js">primitive.js</a></small>
+		</p>
+	</footer>
 
-				<div class="wrapper">
-					<div class="hexagon">
-						<div class="hexagon-in1">
-							<div class="hexagon-in2">
-								<a href="https://avayaa.org/" title="Avayaa">
-									<img class="thumbnail" src="img/hex-item-4.png" alt="Screenshot of website">
-								</a>
-							</div>
-						</div>
-					</div><!--hexagon-->
-				</div><!--wrapper-->
+</body>
 
-				<div class="wrapper">
-					<div class="hexagon">
-						<div class="hexagon-in1">
-							<div class="hexagon-in2">
-								<a href="https://2019.stateofthemap.asia/" title="State of the Map Asia 2019">
-									<img class="thumbnail" src="img/hex-item-5.png" alt="Screenshot of website">
-								</a>
-							</div>
-						</div>
-					</div><!--hexagon-->
-				</div><!--wrapper-->
-
-		</section><!--works-->
-
-		<!-- <div class="separator"></div> -->
-
-		<footer class="site-footer site-footer-font">
-			<!-- <div class="separator"></div> -->
-			<div class="copyright">Template Copyright &#64; 2012 My Story. Made by <a href="#">Hexocat</a> with ♡</div>
-		</footer>
-
-	</body>
 </html>
